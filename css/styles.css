@@ -1,0 +1,637 @@
+.non-mobile-view {
+  display: none;
+}
+
+.non-mobile-profile-image {
+  display: none;
+}
+
+body{
+  text-align: center;
+}
+
+
+.container {
+  background-color: transparent;
+  padding-bottom: 0px;
+  text-align: center;    
+}
+
+    .main-nav {
+      text-align: center;
+      display: block;
+      font-size: 2em;
+      margin-top: 0px; 
+      color: black;     
+    }
+
+    .nav {
+      display: block;
+      font-weight: 700;
+      list-style-type: none;
+      font-family: 'Pathway Gothic One', sans-serif;  
+      margin-top: 0px;
+      color: black;
+    }
+
+    .nav li {
+      color: black;
+    }
+
+    a:link {
+      color: black;
+    }
+
+    a:visited {
+      color: black;
+    }
+
+    p .name {
+      font-family: 'Vidaloka', serif;
+      font-size: 1em;
+    }
+
+    .nav .name {
+      background-color: transparent;
+      font-size: 2em;
+      display: block;
+      margin-top: 0px;
+      padding-bottom: 20px;
+      margin-right: auto;
+      color: black;
+    }
+
+    .realtor-title {
+      font-family: 'Vidaloka', serif;
+      text-align: center;
+      display: inline-block;
+      margin: 0px; 
+    }
+
+    .nav li {
+      background-color: transparent;
+      padding: 5px 10px 10px 10px;
+      margin: 6px;
+    }
+
+ul {
+  padding: 6px;
+}
+
+    .nav a {
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: all .5s;
+    }
+
+    .nav a:hover {
+      color: rgba(112, 128, 144, 0.575);
+    }
+   
+ .profile-image img {
+   text-align: center;
+}
+
+.profile-image p {
+  font-family: 'Vidaloka', serif;
+  /* text-align: center;
+  justify-content: center; */
+  display: block;
+  font-size: 3.5em;
+  margin-bottom: 0px;
+  /* padding-left: 0px;
+  padding-right: 0px; */
+  padding: 0px;
+}
+
+ /* This <img> targets all the project images --------------------*/
+    img{
+      max-width: 95%;
+      padding: 30px 2.5% 20px;
+    }
+
+img p {
+  text-align: center;
+  padding: 20px 100px 20px;
+  
+
+}
+
+    .header {
+      background: white;
+      min-height: 300px;
+      text-align: center;      
+    }
+
+    p {
+      display: inline-block;
+      font-size: 1.5em;
+      padding: 20px 40px;
+    } 
+
+    .about {
+      justify-content: center;
+      display: inline-block;
+      padding: 20px 40px;
+      margin-top: 0px;     
+    }
+
+     p {
+      text-align: center;
+      display: inline;
+      padding: 20px 40px;     
+    }
+    
+    h1 {
+      margin-top: 50px;
+      background-color: transparent;
+      text-align: center;
+      padding-bottom: 10px;
+      margin-bottom: -15px;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 20px 0px 5px;
+    }    
+    
+    .portfolio {
+      background-color: white;
+      text-align: center;
+      float: none;
+      padding-top: 5px;
+    } 
+
+/*-----SUBMIT BUTTON------------ */
+button[type="submit"] {
+  font-size: 1.5em;
+  padding: 20px 20px;
+  cursor: pointer;
+  background-color: #52bab3;
+  color: white;
+  width: 95%;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px; 
+  margin-bottom: 20px; 
+  outline: none;  
+}
+
+
+    .group:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .block button {
+      text-align: center;
+    }
+
+    .block p {
+      padding: 0px 20px 15px;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .skills {     
+      padding: 20px;
+      font-size: 1.30em;
+      color: black;
+    }
+  
+.portfolio .block {
+  background-color: transparent;
+}
+
+.skills li {
+  font-size: 1em;
+  display: inline-block;
+  margin-left: 25px;
+  padding-left: 25px;
+  padding: 15px;
+  font-weight: bold;  
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-transform: uppercase;  
+}
+
+    .footer {
+      min-height: 30px;
+      padding: 10px;
+      text-align: center;
+      display: inline;
+      text-align: center;
+      font-size: 1.5em;
+    }
+
+.main-footer h2 {
+  text-align: center;
+}
+
+.main-footer p {
+  text-align: center;
+  padding: 10px 0px;
+  display: block;
+}
+
+.footer-nav {
+  display: none;
+}
+
+    .mobile-view {
+      display: flex;
+      justify-content: space-around;
+      font-weight: 700;
+      list-style-type: none;     
+      
+    }
+
+    .border-top {
+      border-top: 1px solid rgba(112, 128, 144, 0.575);  
+      margin-bottom: 0px;
+    }
+
+    .mobile-view .name {
+      font-size: 1.5em;
+      display: block;
+      text-align: left;
+      margin-right: auto;
+      color: black;
+      font-family: 'Vidaloka', serif;
+    }
+
+    .mobile-view li {
+      padding: 15px 10px 15px 10px;
+      font-family: 'Pathway Gothic One', sans-serif;      
+    }
+
+    .mobile-view a {
+      font-size: 1.25em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: all .5s;
+    }
+
+/
+
+    .mobile-view a:hover {
+      color: red;
+    } 
+   
+    .block {
+      text-align: center;
+      display: inline-grid;
+      background-color: white;
+    }    
+
+    p {
+      text-align: center;
+    }
+
+
+/*------------------------ Media Queries --------------------*/
+
+/* Tablet View --------------------*/
+      @media (min-width: 768px) {
+        .non-mobile-profile-image {
+          display: block;
+          padding-left: 0px;
+        }
+
+        .img {
+          padding-left: 0px;
+        }
+
+        img{
+          max-width: 100%;
+          padding-bottom: 0px;
+          padding-top: 25px;
+          /* padding-left: 0%; */
+        }
+
+        body{
+          background: url("../images/apartment-chair-clean-contemporary-279719.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-size: contain;
+        }
+        .name .img {
+          width: 100%;
+        }
+
+        .nav .name {
+          display: block;
+          color: black;
+          padding-left: 0%;
+          padding-top: 0%;
+          margin-left: 0px;
+          text-align: left;
+        }
+
+
+        .nav li {
+          display: inline-block;
+          padding-top: 5%;
+        } 
+        
+        .nav{
+          display: flex;
+          padding-left: 0px;
+        }
+
+        .profile-image {
+          display: none;
+        }
+
+        .non-mobile-profile-image {
+          width: 18%;
+          margin-left: 0px;
+          margin-top: 0px;
+          float: left;
+          font-weight: bold;  
+          text-align: center; 
+        }
+    
+        .non-mobile-profile-image p{
+          font-family: 'Vidaloka', serif;
+          display: block;
+          font-size: 2.3em;
+          margin-bottom: 0px;
+          font-weight: bold;
+        }
+
+          .profile-image img {
+            display: block; 
+            width: 95%; 
+            padding-bottom: 0px;
+            padding-left: 0px; 
+          }
+
+        .realtor-title {
+          display: inline;
+          text-align: center;
+          font-size: .5em;  
+          /* padding-left: 0px; */
+          background-color: transparent;
+          padding: 0px;
+        }
+
+        .portfolio {
+          padding-top: 0px;
+        }
+
+  
+
+        h1 {
+          /* margin-top: 250px; */
+          margin-top: 250px;
+          /* padding-top: 3%; */
+        }
+
+        .about {
+          margin-top: 15px;
+        }
+         
+        .header p {
+         display: block;
+         font-size: 1.5em;
+         padding: 0px 5px 0px 50px;         
+        } 
+        .portfolio {
+          padding-top: 0px;
+        } 
+            
+.block {
+  max-width: 40%;
+  padding: 20px;
+}
+
+.mobile-view {
+  display: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 6px;
+  border-top: 1px solid rgba(112, 128, 144, 0.575);
+  font-family: 'Vidaloka', serif;
+}
+
+.footer-nav .name {
+  font-size: 1.5em;
+  display: block;
+  text-align: left;
+  margin-right: auto;
+  color: black;
+  font-family: 'Vidaloka', serif;
+}
+
+.footer-nav li {
+  font-size: 1.25em;
+  padding: 15px 10px 15px 10px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  
+}
+ 
+.footer-nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .5s;
+  color: black;
+}
+
+.footer-nav a:hover {
+  color: black;
+}
+a:link {
+  color: black;
+}
+}
+
+/* Desktop View --------------------*/
+@media (min-width: 1024px) {
+
+  .profile-image {
+    display: none;
+  }
+
+  body{
+    background: url("../images/apartment-chair-clean-contemporary-279719.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+  }
+
+  a:link {
+    color: black;
+  }
+
+.nav{
+  display: flex;
+}
+
+.realtor-title {
+  padding: 0px;
+  margin: 0px;
+  background: transparent;
+}
+
+  /* .profile-image {
+    width: 16%;
+    margin-left: 0px;
+    margin-top: 125px;
+    float: left;
+    font-weight: bold;  
+    text-align: center;        
+    }
+
+    .profile-image p {
+      font-family: 'Vidaloka', serif;
+      display: block;
+      font-size: 2.3em;
+      margin-bottom: 0px;
+      font-weight: bold;
+    } */
+
+    .non-mobile-profile-image {
+      width: 16%;
+      margin-left: 0px;
+      margin-top: 140px;
+      float: left;
+      font-weight: bold;  
+      text-align: center; 
+    }
+
+    .non-mobile-profile-image p{
+      font-family: 'Vidaloka', serif;
+      display: block;
+      font-size: 2.3em;
+      margin-bottom: 0px;
+      font-weight: bold;
+    }
+
+    .img {
+      padding-left: 0%;
+      padding-bottom: 0px;
+    }
+
+/* .profile-image img {
+  display: block;  
+  
+} */
+
+header {
+  /* background: url("../images/canal.jpg") no-repeat top center ; */
+  text-align: center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.header {
+  min-height: 320px;
+  margin-top: 0px;
+  text-align: left;
+}
+
+.header p {
+  display: block;
+  font-size: 1.5em;
+}
+
+h1 {
+  background-color: transparent;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: -15px;
+  padding-top: 30%;
+  /* margin-top: 340px;
+  padding-top: 4%; */
+}
+
+
+.about {
+  margin-top: 15px;
+}
+
+.portfolio {
+  padding-top: 0px;
+}
+
+.block {
+  max-width: 25%;
+  padding: 20px;
+}
+
+.nav {
+  padding-left: 0%;
+}
+
+.nav .name {
+  /* padding-left: -15px; */
+  margin-left: 0px;
+  width: 50%;
+  text-align: left;
+  font-family: 'Vidaloka', serif;
+}
+
+.nav li {
+  padding-right: 3%;
+  background-color: transparent;
+}
+
+button[type="submit"] {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+
+
+.footer-nav {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 6px;
+  border-top: 1px solid rgba(112, 128, 144, 0.575);
+}
+
+.footer-nav .name {
+  font-size: 1.5em;
+  display: block;
+  text-align: left;
+  margin-right: auto;
+  color: black;
+  font-family: 'Vidaloka', serif;
+}
+
+.footer-nav li {
+  font-size: 1.25em;
+  padding: 15px 10px 15px 10px;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+ 
+.footer-nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.footer-nav a:hover {
+  color:black;
+}
+}
+
